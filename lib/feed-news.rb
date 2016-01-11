@@ -1,0 +1,5 @@
+require 'feed-news/cli'
+require 'feed-news/entry'
+require 'feed-news/feed'
+require 'feed-news/repository'
+require 'feed-news/version'

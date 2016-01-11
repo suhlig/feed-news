@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.join(__dir__, '..', 'lib'))
+
+require 'bundler/setup'
+require 'optparse'
+require 'feed-news'
+
+begin
+  OptionParser.new do |opts|
+    opts.banner = <<-END.gsub(/^ {4}/, '')
+    #{opts.program_name} - prints the latest entry of an Atom feed if it's new.
+
+    Usage: #{opts.program_name} URL
+    END
+    opts.version = FeedNews::VERSION
+  end.parse!
+
+  FeedNews::CLI.new.start
+rescue => e
+  warn "Error - #{e.message}"
+  exit 1
+end

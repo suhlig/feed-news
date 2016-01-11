@@ -1,0 +1,182 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://github.com/cloudfoundry/bosh/releases.atom
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sun, 10 Jan 2016 22:31:21 GMT
+      Content-Type:
+      - application/atom+xml; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      Cache-Control:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      - X-PJAX
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      X-Request-Id:
+      - 52354b503989688f816c2e5a86ca3104
+      X-Runtime:
+      - '0.026953'
+      Content-Security-Policy:
+      - 'default-src *; base-uri ''self''; connect-src ''self'' live.github.com wss://live.github.com
+        uploads.github.com status.github.com api.github.com www.google-analytics.com
+        api.braintreegateway.com client-analytics.braintreegateway.com github-cloud.s3.amazonaws.com;
+        font-src assets-cdn.github.com; form-action ''self'' github.com gist.github.com;
+        frame-src ''self'' render.githubusercontent.com gist.github.com checkout.paypal.com;
+        img-src ''self'' data: assets-cdn.github.com identicons.github.com www.google-analytics.com
+        checkout.paypal.com collector.githubapp.com *.githubusercontent.com *.gravatar.com
+        *.wp.com; media-src ''none''; object-src assets-cdn.github.com; script-src
+        assets-cdn.github.com; style-src ''self'' ''unsafe-inline'' ''unsafe-eval''
+        assets-cdn.github.com'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Public-Key-Pins:
+      - max-age=300; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg=";
+        includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - f0ee042be143fcba78041fc2f69c0aa7
+      X-Github-Request-Id:
+      - D9E1E056:6267:4247C39:5692DBB8
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+          <id>tag:github.com,2008:https://github.com/cloudfoundry/bosh/releases</id>
+          <link type="text/html" rel="alternate" href="https://github.com/cloudfoundry/bosh/releases"/>
+          <link type="application/atom+xml" rel="self" href="https://github.com/cloudfoundry/bosh/releases.atom"/>
+          <title>Release notes from bosh</title>
+          <updated>2016-01-07T22:05:21Z</updated>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3173</id>
+            <updated>2016-01-07T22:05:21Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3173"/>
+            <title>stable-3173</title>
+            <content type="html">&lt;p&gt;ci-tagged&lt;/p&gt;</content>
+            <author><name>unknown</name></author>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3146.2</id>
+            <updated>2016-01-06T22:40:38Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3146.2"/>
+            <title>v232.2</title>
+            <content type="html">&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://www.pivotaltracker.com/story/show/111103500&quot;&gt;Bump Ubuntu stemcells for [USN-2857-1] Linux kernel vulnerability&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;This release includes 3146.2 stemcell series.&lt;/p&gt;</content>
+            <author>
+              <name>cppforlife</name>
+            </author>
+            <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/185847?v=3&amp;s=60"/>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3169</id>
+            <updated>2016-01-04T19:07:38Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3169"/>
+            <title>stable-3169</title>
+            <content type="html">&lt;p&gt;ci-tagged&lt;/p&gt;</content>
+            <author><name>unknown</name></author>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3167</id>
+            <updated>2015-12-30T18:10:28Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3167"/>
+            <title>stable-3167</title>
+            <content type="html">&lt;p&gt;ci-tagged&lt;/p&gt;</content>
+            <author><name>unknown</name></author>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3165</id>
+            <updated>2015-12-29T20:38:17Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3165"/>
+            <title>stable-3165</title>
+            <content type="html">&lt;p&gt;ci-tagged&lt;/p&gt;</content>
+            <author><name>unknown</name></author>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3163</id>
+            <updated>2015-12-23T18:17:41Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3163"/>
+            <title>stable-3163</title>
+            <content type="html">&lt;p&gt;ci-tagged&lt;/p&gt;</content>
+            <author><name>unknown</name></author>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3160</id>
+            <updated>2015-12-19T02:24:10Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3160"/>
+            <title>stable-3160</title>
+            <content type="html">&lt;p&gt;ci-tagged&lt;/p&gt;</content>
+            <author><name>unknown</name></author>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3157</id>
+            <updated>2015-12-18T03:23:32Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3157"/>
+            <title>stable-3157</title>
+            <content type="html">&lt;p&gt;ci-tagged&lt;/p&gt;</content>
+            <author><name>unknown</name></author>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3156</id>
+            <updated>2015-12-17T02:34:49Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3156"/>
+            <title>v238</title>
+            <content type="html">&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://www.pivotaltracker.com/story/show/110266492&quot;&gt;Bump Ubuntu stemcells for [USN-2836-1] GRUB vulnerability&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;This release includes 3156 stemcell series.&lt;/p&gt;</content>
+            <author>
+              <name>cppforlife</name>
+            </author>
+            <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/185847?v=3&amp;s=60"/>
+          </entry>
+          <entry>
+            <id>tag:github.com,2008:Repository/3910314/stable-3155</id>
+            <updated>2015-12-15T19:51:02Z</updated>
+            <link rel="alternate" type="text/html" href="/cloudfoundry/bosh/releases/tag/stable-3155"/>
+            <title>v237</title>
+            <content type="html">&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://www.pivotaltracker.com/story/show/110105282&quot;&gt;Bump Ubuntu stemcells for [USN-2834-1] libxml2 vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;This release includes 3155 stemcell series.&lt;/p&gt;</content>
+            <author>
+              <name>cppforlife</name>
+            </author>
+            <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/185847?v=3&amp;s=60"/>
+          </entry>
+        </feed>
+    http_version: 
+  recorded_at: Sun, 10 Jan 2016 22:31:21 GMT
+recorded_with: VCR 3.0.1

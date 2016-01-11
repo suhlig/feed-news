@@ -1,0 +1,3 @@
+https://github.com/cloudfoundry/bosh/releases.atom
+https://github.com/cloudfoundry/cf-release/releases.atom
+https://github.com/caskroom/homebrew-cask/releases.atom
